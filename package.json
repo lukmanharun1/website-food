@@ -1,0 +1,17 @@
+{
+  "name": "website_food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss-cli@latest build ./src/css/index.css -c ./tailwind.config.js -o ./dist/css/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.3",
+    "tailwindcss": "^2.0.2"
+  }
+}

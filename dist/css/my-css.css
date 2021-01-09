@@ -1,0 +1,32 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  }
+  
+  .food-header {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  /* header navbar */
+
+  header a.active {
+    color: #272042;
+    font-weight: 500;
+  }
+
+  header a {
+    color: #8B8BA5;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .my-kitchen {
+    background-color: #FBE0DC;
+    padding: 14px 30px;
+    margin-top: -10px;
+    border-radius: 30px 30px 15px 15px;
+  }
+
+  header a:hover {
+    color: #272042;
+    font-weight: 500; 
+  }
