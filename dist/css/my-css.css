@@ -107,6 +107,16 @@ body {
     margin-top: 62px;
     margin-left: 30px;
   }
+  .menu .menu-makanan .tombol-play {
+    display: none;
+    z-index: 2;
+    margin-top: -255px;
+    width: 235px;
+    height: 250px;
+    margin-left: 10px;
+    position: absolute;
+    
+  }
 
   .menu .menu-makanan .nama-makanan {
     font-weight: 500;
@@ -134,4 +144,125 @@ body {
 
   .testimoni img {
     margin-left: 490px;
+  }
+
+  .testimoni .nama-testimoni {
+    margin-top: -5rem;
+    font-size: 22px;
+    color: #272042;
+  }
+
+  .testimoni .profesi-testimoni {
+    font-weight: normal;
+    margin-left: -60px;
+    font-size: 16px;
+    color: #8B8BA5;
+  }
+  /* data testimoni */
+  .testimoni .data {
+    margin-left: 217px;
+    margin-top: 100px;
+  }
+  .testimoni .data-testimoni {
+    margin-right: 100px;
+  }
+
+  .testimoni .data-testimoni .jumlah-data {
+    font-size: 32px;
+    color: #272042;
+  }
+
+  .testimoni .data-testimoni .deskripsi  {
+    font-size: 20px;
+    text-align: center;
+    color: #8B8BA5;
+    margin-top: 8px;
+  }
+
+  /* download aplikasi */
+  .download-aplikasi {
+    margin-top: 100px;
+    margin-left: -380px;
+  }
+
+  .download-aplikasi .tempat-download {
+    margin-left: 1050px;
+    margin-top: -400px;
+  }
+
+  .download-aplikasi .tempat-download h2 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 70px;
+    color: #272042;
+  }
+
+  .download-aplikasi .tempat-download .deskripsi {
+    font-size: 20px;
+    line-height: 34px;
+    color: #8B8BA5;
+    margin-top: 10px;
+  }
+
+  .download-aplikasi .tempat-download .link-download {
+    margin-left: -490px;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+
+  /* footer links */
+  footer {
+    margin-top: 220px;
+    margin-left: 160px;
+  }
+
+  footer .foodyar {
+    margin-left: -80px;
+    margin-top: 294px;
+  }
+
+  footer .foodyar h3 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 10px;
+    color: #272042;
+  }
+
+  footer .link-header {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #272042;
+    margin-bottom: 20px;
+  }
+
+  footer a {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8B8BA5;
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  footer .logo-foodyar {
+    /* menimpa css margin-left */
+    margin-left: 0px;
+    width: 28px;
+    height: 28px;
+    margin-top: 6px;
+  }
+
+  footer .footer-link {
+    margin-top: -110px;
+    margin-left: 140px;
+  }
+
+  footer .copy-rights {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #8B8BA5;
+    margin-left: 350px;
   }
