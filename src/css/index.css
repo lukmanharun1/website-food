@@ -2,3 +2,271 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Quicksand', sans-serif;
+  }
+  
+  .food-header {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  /* header navbar */
+
+  header a.active {
+    color: #272042;
+    font-weight: 500;
+  }
+
+  header a {
+    color: #8B8BA5;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .my-kitchen {
+    background-color: #FBE0DC;
+    padding: 14px 30px;
+    margin-top: -10px;
+    border-radius: 30px 30px 15px 15px;
+  }
+  .my-kitchen:hover {
+    background-color: #e2cbc8;
+  }
+  header a:hover {
+    color: #272042;
+    font-weight: 500; 
+  }
+
+  /* jumbotron */
+
+  .jumbotron {
+    margin-top: 156px;
+    margin-left: 141px;
+  }
+
+  .jumbotron h1 {
+    font-weight: bold;
+    font-size: 46px;
+    color: #272042;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+    color: #8B8BA5;
+    margin-bottom: 40px;
+  }
+  /* decide a menu */
+  .jumbotron .decide-menu {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 14px 35px;
+    background-color: #F7C531;
+    border-radius: 30px 30px 15px 15px;
+    
+  }
+
+  .jumbotron .decide-menu:hover {
+    padding: 16px 37px;
+  }
+
+  .video-jumbotron {
+    width: 626px;
+   height: 405px;
+   margin-left: 28rem;
+  }
+
+  /* menu food */
+  .menu {
+    margin-top: 106px;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
+  .menu .watch-now {
+    font-size: 20px;
+    color: #8B8BA5;
+    line-height: 25px;
+  }
+
+  .menu .special-to-try {
+    font-size: 32px;
+    color: #272042;
+  }
+
+  .menu nav {
+    margin-top: 30px;
+    color: #272042;
+    font-size: 20px;
+  }
+  .menu nav a {
+    margin-left: 50px;
+  }
+
+  .menu nav .menu-active {
+    color: #F7C531;
+  }
+
+  .menu .menu-makanan {
+    width: 271px;
+    margin-top: 62px;
+    margin-left: 30px;
+  }
+  .menu .menu-makanan .tombol-play {
+    /* display: none; */
+    z-index: 2;
+    margin-top: -255px;
+    width: 235px;
+    height: 250px;
+    margin-left: 10px;
+    position: absolute;
+    
+  }
+
+  .menu .menu-makanan .nama-makanan {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #272042;
+    margin-top: 14px;
+  }
+
+  .menu .menu-makanan .nama-chef {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8B8BA5;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+
+  .testimoni blockquote {
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 155px;
+    color: #272042;
+  }
+
+  .testimoni img {
+    margin-left: 490px;
+  }
+
+  .testimoni .nama-testimoni {
+    margin-top: -5rem;
+    font-size: 22px;
+    color: #272042;
+  }
+
+  .testimoni .profesi-testimoni {
+    font-weight: normal;
+    margin-left: -60px;
+    font-size: 16px;
+    color: #8B8BA5;
+  }
+  /* data testimoni */
+  .testimoni .data {
+    margin-left: 217px;
+    margin-top: 100px;
+  }
+  .testimoni .data-testimoni {
+    margin-right: 100px;
+  }
+
+  .testimoni .data-testimoni .jumlah-data {
+    font-size: 32px;
+    color: #272042;
+  }
+
+  .testimoni .data-testimoni .deskripsi  {
+    font-size: 20px;
+    text-align: center;
+    color: #8B8BA5;
+    margin-top: 8px;
+  }
+
+  /* download aplikasi */
+  .download-aplikasi {
+    margin-top: 100px;
+    margin-left: -380px;
+  }
+
+  .download-aplikasi .tempat-download {
+    margin-left: 1050px;
+    margin-top: -400px;
+  }
+
+  .download-aplikasi .tempat-download h2 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 70px;
+    color: #272042;
+  }
+
+  .download-aplikasi .tempat-download .deskripsi {
+    font-size: 20px;
+    line-height: 34px;
+    color: #8B8BA5;
+    margin-top: 10px;
+  }
+
+  .download-aplikasi .tempat-download .link-download {
+    margin-left: -490px;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+
+  /* footer links */
+  footer {
+    margin-top: 220px;
+    margin-left: 160px;
+  }
+
+  footer .foodyar {
+    margin-left: -80px;
+    margin-top: 294px;
+  }
+
+  footer .foodyar h3 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 10px;
+    color: #272042;
+  }
+
+  footer .link-header {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #272042;
+    margin-bottom: 20px;
+  }
+
+  footer a {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8B8BA5;
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  footer .logo-foodyar {
+    /* menimpa css margin-left */
+    margin-left: 0px;
+    width: 28px;
+    height: 28px;
+    margin-top: 6px;
+  }
+
+  footer .footer-link {
+    margin-top: -110px;
+    margin-left: 140px;
+  }
+
+  footer .copy-rights {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #8B8BA5;
+    margin-left: 350px;
+  }
