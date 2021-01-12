@@ -108,7 +108,7 @@ body {
     margin-left: 30px;
   }
   .menu .menu-makanan .tombol-play {
-    display: none;
+    /* display: none; */
     z-index: 2;
     margin-top: -255px;
     width: 235px;
